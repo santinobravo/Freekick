@@ -1,0 +1,326 @@
+[
+    {
+        "id": "Camiseta-Belgrano-Titular",
+        "titulo": "Camiseta Titular Belgrano 2022",
+        "imagen": "./assets/img/camiseta_belgrano_titular.png",
+        "precio": 26000
+    },
+    {
+        "id": "Camiseta-Belgrano-Suplente",
+        "titulo": "Camiseta Suplente Belgrano 2022",
+        "imagen": "./assets/img/camiseta_belgrano_suplente.png",
+        "precio": 26000
+    },
+    {
+        "id": "Camiseta-Talleres-Titular",
+        "titulo": "Camiseta Titular Talleres 2022",
+        "imagen": "./assets/img/camiseta_talleres_titular.png",
+        "precio": 26000
+    },
+    {
+        "id": "Camiseta-Talleres-Suplente",
+        "titulo": "Camiseta Suplente Talleres 2022",
+        "imagen": "./assets/img/camiseta_talleres_suplente.png",
+        "precio": 26000
+    },
+    {
+        "id": "Camiseta-Boca-Titular",
+        "titulo": "Camiseta Titular Boca 2022",
+        "imagen": "./assets/img/camiseta_boca_titular.png",
+        "precio": 38000
+    },
+    {
+        "id": "Camiseta-Boca-Suplente",
+        "titulo": "Camiseta Suplente Boca 2022",
+        "imagen": "./assets/img/camiseta_boca_suplente.png",
+        "precio": 38000
+    },
+    {
+        "id": "Camiseta-River-Titular",
+        "titulo": "Camiseta Titular River 2022",
+        "imagen": "./assets/img/camiseta_river_titular.png",
+        "precio": 35000
+    },
+    {
+        "id": "Camiseta-River-Suplente",
+        "titulo": "Camiseta Suplente River 2022",
+        "imagen": "./assets/img/camiseta_river_suplente.png",
+        "precio": 35000
+    },
+    {
+        "id": "Camiseta-SanLorenzo-Titular",
+        "titulo": "Camiseta Titular San Lorenzo 2022",
+        "imagen": "./assets/img/camiseta_slorenzo_titular.png",
+        "precio": 30000
+    },
+    {
+        "id": "Camiseta-SanLorenzo-Suplente",
+        "titulo": "Camiseta Suplente San Lorenzo 2022",
+        "imagen": "./assets/img/camiseta_slorenzo_suplente.png",
+        "precio": 30000
+    },
+    {
+        "id": "Camiseta-Independiente-Titular",
+        "titulo": "Camiseta Titular Independiente 2022",
+        "imagen": "./assets/img/camiseta_independiente_titular.png",
+        "precio": 33000
+    },
+    {
+        "id": "Camiseta-Independiente-Suplente",
+        "titulo": "Camiseta Suplente Independiente 2022",
+        "imagen": "./assets/img/camiseta_independiente_suplente.png",
+        "precio": 33000
+    },
+    {
+        "id": "Camiseta-Racing-Titular",
+        "titulo": "Camiseta Titular Racing 2022",
+        "imagen": "./assets/img/camiseta_racing_titular.png",
+        "precio": 31000
+    },
+    {
+        "id": "Camiseta-Racing-Suplente",
+        "titulo": "Camiseta Suplente Racing 2022",
+        "imagen": "./assets/img/camiseta_racing_suplente.png",
+        "precio": 31000
+    },
+    {
+        "id": "Camiseta-VelezSarsfield-Titular",
+        "titulo": "Camiseta Titular Velez Sarsfield 2022",
+        "imagen": "./assets/img/camiseta_velez_titular.png",
+        "precio": 29000
+    },
+    {
+        "id": "Camiseta-VelezSarsfield-Suplente",
+        "titulo": "Camiseta Suplente Velez Sarsfield 2022",
+        "imagen": "./assets/img/camiseta_velez_suplente.png",
+        "precio": 29000
+    },
+    {
+        "id": "Camiseta-Newells-Titular",
+        "titulo": "Camiseta Titular Newell's 2022",
+        "imagen": "./assets/img/camiseta_newells_titular.png",
+        "precio": 26000
+    },
+    {
+        "id": "Camiseta-Newells-Suplente",
+        "titulo": "Camiseta Suplente Newell's 2022",
+        "imagen": "./assets/img/camiseta_newells_suplente.png",
+        "precio": 26000
+    },
+    {
+        "id": "Camiseta-RosarioCentral-Titular",
+        "titulo": "Camiseta Titular Rosario Central 2022",
+        "imagen": "./assets/img/camiseta_central_titular.png",
+        "precio": 26000
+    },
+    {
+        "id": "Camiseta-RosarioCentral-Suplente",
+        "titulo": "Camiseta Suplente Rosario Central 2022",
+        "imagen": "./assets/img/camiseta_central_suplente.png",
+        "precio": 26000
+    },
+    {
+        "id": "Camiseta-Colon-Titular",
+        "titulo": "Camiseta Titular Colon 2022",
+        "imagen": "./assets/img/camiseta_colon_titular.png",
+        "precio": 21000
+    },
+    {
+        "id": "Camiseta-Colon-Suplente",
+        "titulo": "Camiseta Suplente Colon 2022",
+        "imagen": "./assets/img/camiseta_colon_suplente.png",
+        "precio": 21000
+    },
+    {
+        "id": "Camiseta-Union-Titular",
+        "titulo": "Camiseta Titular Union 2022",
+        "imagen": "./assets/img/camiseta_union_titular.png",
+        "precio": 21000
+    },
+    {
+        "id": "Camiseta-Union-Suplente",
+        "titulo": "Camiseta Suplente Union 2022",
+        "imagen": "./assets/img/camiseta_union_suplente.png",
+        "precio": 21000
+    },
+    {
+        "id": "Camiseta-Estudiantes-Titular",
+        "titulo": "Camiseta Titular Estudiantes 2022",
+        "imagen": "./assets/img/camiseta_edlp_titular.png",
+        "precio": 28500
+    },
+    {
+        "id": "Camiseta-Estudiantes-Suplente",
+        "titulo": "Camiseta Suplente Estudiantes 2022",
+        "imagen": "./assets/img/camiseta_edlp_suplente.png",
+        "precio": 28500
+    },
+    {
+        "id": "Camiseta-Gimnasia-Titular",
+        "titulo": "Camiseta Titular Gimnasia 2022",
+        "imagen": "./assets/img/camiseta_gimnasia_titular.png",
+        "precio": 23500
+    },
+    {
+        "id": "Camiseta-Gimnasia-Suplente",
+        "titulo": "Camiseta Suplente Gimnasia 2022",
+        "imagen": "./assets/img/camiseta_gimnasia_suplente.png",
+        "precio": 23500
+    },
+    {
+        "id": "Camiseta-Instituto-Titular",
+        "titulo": "Camiseta Titular Instituto 2022",
+        "imagen": "./assets/img/camiseta_instituto_titular.png",
+        "precio": 18000
+    },
+    {
+        "id": "Camiseta-Instituto-Suplente",
+        "titulo": "Camiseta Suplente Instituto 2022",
+        "imagen": "./assets/img/camiseta_instituto_suplente.png",
+        "precio": 18000
+    },
+    {
+        "id": "Camiseta-Argentinos-Titular",
+        "titulo": "Camiseta Titular Argentinos Juniors 2022",
+        "imagen": "./assets/img/camiseta_argentinos_titular.png",
+        "precio": 25000
+    },
+    {
+        "id": "Camiseta-Argentinos-Suplente",
+        "titulo": "Camiseta Suplente Argentinos Juniors 2022",
+        "imagen": "assets/img/camiseta_argentinos_suplente.png",
+        "precio": 25000
+    },
+    {
+        "id": "Camiseta-Arsenal-Titular",
+        "titulo": "Camiseta Titular Arsenal 2022",
+        "imagen": "./assets/img/camiseta_arsenal_titular.png",
+        "precio": 15000
+    },
+    {
+        "id": "Camiseta-Arsenal-Suplente",
+        "titulo": "Camiseta Suplente Arsenal 2022",
+        "imagen": "./assets/img/camiseta_arsenal_suplente.png",
+        "precio": 15000
+    },
+    {
+        "id": "Camiseta-Lanus-Titular",
+        "titulo": "Camiseta Titular Lanus 2022",
+        "imagen": "./assets/img/camiseta_lanus_titular.png",
+        "precio": 20000
+    },
+    {
+        "id": "Camiseta-Lanus-Suplente",
+        "titulo": "Camiseta Suplente Lanus 2022",
+        "imagen": "./assets/img/camiseta_lanus_suplente.png",
+        "precio": 20000
+    },
+    {
+        "id": "Camiseta-Banfield-Titular",
+        "titulo": "Camiseta Titular Banfield 2022",
+        "imagen": "./assets/img/camiseta_banfield_titular.png",
+        "precio": 20000
+    },
+    {
+        "id": "Camiseta-Banfield-Suplente",
+        "titulo": "Camiseta Suplente Banfield 2022",
+        "imagen": "./assets/img/camiseta_banfield_suplente.png",
+        "precio": 20000
+    },
+    {
+        "id": "Camiseta-Barracas-Titular",
+        "titulo": "Camiseta Titular Barracas Central 2022 ",
+        "imagen": "./assets/img/camiseta_barracas_titular.png",
+        "precio": 15000
+    },
+    {
+        "id": "Camiseta-Barracas-Suplente",
+        "titulo": "Camiseta Suplente Barracas Central 2022",
+        "imagen": "./assets/img/camiseta_barracas_suplente.png",
+        "precio": 15000
+    },
+    {
+        "id": "Camiseta-CCordoba-Titular",
+        "titulo": "Camiseta Titular Central Cordoba 2022",
+        "imagen": "./assets/img/camiseta_ccordoba_titular.png",
+        "precio": 17000
+    },
+    {
+        "id": "Camiseta-CCordoba-Suplente",
+        "titulo": "Camiseta Suplente Central Cordoba 2022",
+        "imagen": "./assets/img/camiseta_ccordoba_suplente.png",
+        "precio": 17000
+    },
+    {
+        "id": "Camiseta-Defensa-Titular",
+        "titulo": "Camiseta Titular Defensa y Justicia 2022",
+        "imagen": "./assets/img/camiseta_dyj_titular.png",
+        "precio": 21000
+    },
+    {
+        "id": "Camiseta-Defensa-Suplente",
+        "titulo": "Camiseta Suplente Defensa y Justicia 2022",
+        "imagen": "./assets/img/camiseta_dyj_suplente.png",
+        "precio": 21000
+    },
+    {
+        "id": "Camiseta-GCruz-Titular",
+        "titulo": "Camiseta Titular Godoy Cruz 2022",
+        "imagen": "./assets/img/camiseta_gcruz_titular.png",
+        "precio": 20000
+    },
+    {
+        "id": "Camiseta-GCruz-Suplente",
+        "titulo": "Camiseta Suplente Godoy Cruz 2022",
+        "imagen": "./assets/img/camiseta_gcruz_suplente.png",
+        "precio": 20000
+    },
+    {
+        "id": "Camiseta-Huracan-Titular",
+        "titulo": "Camiseta Titular Huracan 2022",
+        "imagen": "./assets/img/camiseta_huracan_titular.png",
+        "precio": 22000
+    },
+    {
+        "id": "Camiseta-Huracan-Suplente",
+        "titulo": "Camiseta Suplente Huracan 2022",
+        "imagen": "./assets/img/camiseta_huracan_suplente.png",
+        "precio": 22000
+    },
+    {
+        "id": "Camiseta-Platense-Titular",
+        "titulo": "Camiseta Titular Platense 2022",
+        "imagen": "./assets/img/camiseta_platense_titular.png",
+        "precio": 17500
+    },
+    {
+        "id": "Camiseta-Platense-Suplente",
+        "titulo": "Camiseta Suplente Platense 2022",
+        "imagen": "./assets/img/camiseta_platense_suplente.png",
+        "precio": 17500
+    },
+    {
+        "id": "Camiseta-Tigre-Titular",
+        "titulo": "Camiseta Titular Tigre 2022",
+        "imagen": "./assets/img/camiseta_tigre_titular.png",
+        "precio": 22000
+    },
+    {
+        "id": "Camiseta-Tigre-Suplente",
+        "titulo": "Camiseta Suplente Tigre 2022",
+        "imagen": "./assets/img/camiseta_tigre_suplente.png",
+        "precio": 22000
+    },
+    {
+        "id": "Camiseta-Sarmiento-Titular",
+        "titulo": "Camiseta Titular Sarmiento 2022",
+        "imagen": "./assets/img/camiseta_sarmiento_titular.png",
+        "precio": 15500
+    },
+    {
+        "id": "Camiseta-Sarmiento-Suplente",
+        "titulo": "Camiseta Suplente Sarmiento 2022",
+        "imagen": "./assets/img/camiseta_sarmiento_suplente.png",
+        "precio": 15500
+    }
+]

@@ -1,37 +1,84 @@
-const USUARIO = "Santino"
-const CONTRASEÑA = "234"
+let camisetas = []
+fetch("./data.json")
+    .then(response => response.json())
+    .then(data =>{
+        camisetas = data;
+        cargarCamisetas(camisetas);
+    })
+const contenedorCamiseta = document.querySelector("#contenedorCamisetas");
+let botonesAgregar = document.querySelectorAll(".botonAgregar")
+const numerito = document.querySelector("#numerito")
 
-let usuarioPedido = prompt("Ingrese el usuario")
-let contraPedida = prompt("Ingrese su contraseña")
-function login(){
-if ((USUARIO == usuarioPedido) && (CONTRASEÑA == contraPedida)) {
-    alert("Bienvenido a Freekick, la mejor tienda de camisetas")
+function cargarCamisetas(camisetas) {
+
+    camisetas.forEach(camiseta => {
+        const div = document.createElement("div");
+        div.classList.add("tarjeta");
+        div.innerHTML = `
+            <div class="cuerpo">
+            <img src=${camiseta.imagen} alt="${camiseta.titulo}">
+        </div>
+        <div class="titulo">${camiseta.titulo} <br> $${camiseta.precio}</div>
+        <div class="boton">
+            <button class="botonAgregar" id=${camiseta.id} href="">Añadir al carrito</button>
+        </div>
+    `;
+        contenedorCamiseta.append(div)
+
+    })
+    actualizarBotonesAgregar()
+}
+
+
+
+function actualizarBotonesAgregar() {
+    botonesAgregar = document.querySelectorAll(".botonAgregar")
+    botonesAgregar.forEach(boton => {
+        boton.addEventListener("click", agregarAlCarrito)
+    })
+}
+let productosEnCarrito
+const productosEnCarritoLS = JSON.parse(localStorage.getItem("camisetas-en-carrito"))
+if (productosEnCarritoLS) {
+    productosEnCarrito = productosEnCarritoLS
+    actualizarNumero()
 } else {
-    alert("Su usuario o contraseña no es la correcta")
+    productosEnCarrito = []
 }
-}
-login();
 
-function compraCamiseta(){
-let nombreA = prompt("Bienvenido, ingrese su nombre aqui")
-console.log(nombreA)
-console.log("Como andas " + nombreA)
-let precio = prompt("¿A que precio esta la camiseta que elegiste?")
-precio = parseInt(precio)
-console.log(precio)
-var descuento = (precio - (precio * 20 / 100))
-alert("Este es el precio final con el 20% de descuento por ser la primer compra $" + descuento)
-console.log(descuento)
-console.log("Te quedaria en $" + descuento)
-}
-compraCamiseta();
 
-function turno(){
-    for (let i = 1; i <= 5; i++) {
-        alert("A continuación, va a tener que sacar un turno para retirar su camiseta por el local")
-        let nombre = prompt("Ingrese su nombre");
-        alert("Turno  N° "+i+" a nombre de: "+ nombre);
-        break
-    } 
+
+function agregarAlCarrito(e) {
+    Toastify({
+        text: "Camiseta agregada",
+        duration: 3000,
+        close: true,
+        gravity: "top", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+            background: "green",
+            borderRadius: "20px",
+            textTransform: "uppercase",
+            fontSize: "10px"
+        },
+        onClick: function () { } // Callback after click
+    }).showToast();
+
+    const idBoton = e.currentTarget.id
+    const productoAgregado = camisetas.find(camiseta => camiseta.id === idBoton)
+    if (productosEnCarrito.some(camiseta => camiseta.id === idBoton)) {
+        const agregar = productosEnCarrito.findIndex(camiseta => camiseta.id === idBoton)
+        productosEnCarrito[agregar].cantidad++;
+    } else {
+        productoAgregado.cantidad = 1;
+        productosEnCarrito.push(productoAgregado)
+    }
+    console.log(productosEnCarrito)
+    actualizarNumero()
+    localStorage.setItem("camisetas-en-carrito", JSON.stringify(productosEnCarrito))
 }
-turno()
+function actualizarNumero() {
+    let nuevoNumerito = productosEnCarrito.reduce((acc, camiseta) => acc + camiseta.cantidad, 0)
+    numerito.innerText = nuevoNumerito
+}
